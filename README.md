@@ -1,1 +1,0 @@
-# ufuksenyurek.github.io
