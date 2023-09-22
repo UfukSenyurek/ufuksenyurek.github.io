@@ -655,8 +655,13 @@ https://www.tooplate.com/view/2119-gymso-fitness
       height: auto;
     }
     .responsiveBatu {
+      position: absolute;
+      bottom: 10px;
+      left: 60px;
       width: 10%;
-      height: auto;
+      height: 10%;
+
+
     }
   }
 
