@@ -618,6 +618,28 @@ https://www.tooplate.com/view/2119-gymso-fitness
   .social-icon li a:hover {
     color: var(--primary-color);
   }
+  /* Logoların web büyüklüğü */
+  .logo-size{
+    width: 8%;
+    height: 8%;
+    margin: 5%;
+  }
+   /* Fotoğrafının web büyüklüğü */
+  .responsive{
+    width: 30%;
+    height: auto;
+  }
+  .logo-fac{
+    width: 10%;
+    height: auto;
+  }
+  .old-website {
+    color: var(--white-color);
+    font-size: var(--h6-font-size);
+    font-weight: var(--font-weight-normal);
+    line-height: normal;
+    padding-top: 0;
+  }
 
 
   /*---------------------------------------
@@ -650,20 +672,21 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .modal-content {
       padding: 2rem;
     }
+     /* Fotoğrafının Mobil büyüklüğü */
     .responsive {
-      width: 100%;
+      width: 80%;
       height: auto;
     }
-    .responsiveBatu {
-      position: absolute;
-      bottom: 10px;
-      left: 60px;
-      width: 10%;
-      height: 10%;
-
-
+     /* Logoların Mobil büyüklüğü */
+    .logo-size{
+      width: 17%;
+      height: 17%;
+      margin: 5%;
     }
+
+    
   }
+
 
   @media screen and (max-width: 767px) {
 
@@ -680,3 +703,4 @@ https://www.tooplate.com/view/2119-gymso-fitness
       display: block;
     }
   }
+
