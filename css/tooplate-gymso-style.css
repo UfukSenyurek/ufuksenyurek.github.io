@@ -630,17 +630,27 @@ https://www.tooplate.com/view/2119-gymso-fitness
     height: auto;
   }
   .logo-fac{
-    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
     height: auto;
+    cursor: pointer;
   }
   .old-website {
-    color: var(--white-color);
-    font-size: var(--h6-font-size);
-    font-weight: var(--font-weight-normal);
-    line-height: normal;
-    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-weight: var(--font-weight-bold);
+    padding-top: 50px;
+    font-size: 280%;
+    text-align: center;
   }
-
+.old-website:hover{
+  cursor: pointer;
+  color: #f13a11;
+}
 
   /*---------------------------------------
      RESPONSIVE STYLES              
@@ -682,6 +692,19 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 17%;
       height: 17%;
       margin: 5%;
+    }
+    .logo-fac{
+      width: 70%;
+      height: auto;
+    }
+    .old-website {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000000;
+      font-weight: var(--font-weight-bold);
+      padding-top: 50px;
+      font-size: 180%;
     }
 
     
