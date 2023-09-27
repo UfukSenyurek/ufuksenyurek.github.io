@@ -685,6 +685,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
      /* Fotoğrafının Mobil büyüklüğü */
     .responsive {
       width: 80%;
+      padding-top: 110px;
       height: auto;
     }
      /* Logoların Mobil büyüklüğü */
